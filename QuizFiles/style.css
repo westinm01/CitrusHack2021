@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --shadow:
+                -4px -4px 10px rgba(238,236,236),
+                3px 3px 5px rgba(89,89,89);
+   
+    --icon-shadow: inset -2px -2px 5px rgba(238,236,236),
+                    inset 2px 2px 5px rgba(89,89,89);
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #111;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container{
+    max-width: 200rem;
+    margin: 0 auto;
+}
+
+header{
+    margin: 0 auto;
+    padding: 3em 2em;
+    color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+nav a+a{
+    margin-left: 2rem;
+    color: #FFFFFF;
+}
+
+.heading{
+    text-align: center;
+    padding: 5rem 0;
+    color: #FFFFFF;
+}
+
+ h1{
+    text-transform: capitalize;
+     font-size: 8rem;
+     font-weight: 200;
+}
+
+p{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 3rem 0;
+}
+
+p.quiz{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 3rem 0;
+}
+
+span{
+    display: block;
+}
+
+a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    box-shadow:   5px 5px 10px #000000,
+             -2px -1.5px 5px #696969;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    transition: all 0.2s;
+
+}
+
+
+a:hover{
+    transform: scale(0.95);
+}
+
+
+.details{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 1em;
+      box-shadow:   5px 5px 10px #000000,
+             -2px -1.5px 5px #696969;
+    border-radius: 5px;
+    margin: 4rem auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.last h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10rem;
+    color: #FFFFFF;
+}
+
+.last h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 400;
+   
+    margin-top: 2rem;
+    color: #FFFFFF;
+}
+
+.cards{
+    box-shadow: initial;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+ a.github {
+    width:10%;
+    display: block;
+    font-size: 2rem;
+    margin: 20px;
+    margin: 4rem auto;
+    text-align: center;
+
+}
+
+.box{
+    padding: 2em 1em;:;
+    box-shadow:   5px 5px 10px #000000,
+             -2px -1.5px 5px #696969;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.box:hover{
+    box-shadow:   5px 5px 10px #000000,
+             -2px -1.5px 5px #696969;
+    transform: scale(0.97);
+}
+
+.end p{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 3rem 0;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    color: darkblue;
+    margin: 1rem;
+}
+
+p.footing{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 3rem 0;
+}
