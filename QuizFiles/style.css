@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --shadow:
-                -4px -4px 10px rgba(238,236,236),
-                3px 3px 5px rgba(89,89,89);
-   
-    --icon-shadow: inset -2px -2px 5px rgba(238,236,236),
-                    inset 2px 2px 5px rgba(89,89,89);
-}
-
 html{
     font-size: 10px;
 }
@@ -21,6 +12,7 @@ body{
     background-color: #111;
     font-family: sans-serif;
 }
+
 
 a{
     text-decoration: none;
@@ -32,9 +24,13 @@ a{
     margin: 0 auto;
 }
 
+.first{
+
+}
+
 header{
     margin: 0 auto;
-    padding: 3em 2em;
+    padding: .5em 1em;
     color: #FFFFFF;
 }
 
@@ -55,7 +51,7 @@ nav a+a{
 
 .heading{
     text-align: center;
-    padding: 5rem 0;
+    
     color: #FFFFFF;
 }
 
@@ -76,7 +72,12 @@ p.quiz{
     font-size: 3rem;
     line-height: 1.5;
     color: #FFFFFF;
-    margin: 3rem 0;
+    text-align: center;
+
+}
+
+.start{
+
 }
 
 span{
@@ -104,7 +105,6 @@ a:hover{
 
 .details{
     width: 95%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3em 1em;
@@ -112,6 +112,16 @@ a:hover{
              -2px -1.5px 5px #696969;
     border-radius: 5px;
     margin: 4rem auto;
+
+    height:900px;
+    overflow:auto;
+}
+
+body.options{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .box{
