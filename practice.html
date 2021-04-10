@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Pokemon Now</title>
+		<title>Pokémon Now</title>
 		<link rel ="stylesheet" type="text/css" href="style.css">
 	</head>
 
@@ -16,7 +16,8 @@
 			<img src="images/oshawott.png" data-speed="-2" class ="layer">
 			<img src="images/chikorita.png" data-speed="10" class ="layer">
 			<img src="images/goomy.png" data-speed="-3" class ="layer">
-			<h2 class="layer">Pokemon Now</h2>
+			<img src="images/minior.png" data-speed="4" class ="layer">
+			<h2 class="layer">Pokémon Now</h2>
 		</section>
 		<script type= "text/javascript">
 			document.addEventListener("mousemove",parallax);
@@ -31,9 +32,9 @@
 		</script>
 
 		<div class="sidenav">
-  <a href="#Pokedex">Pokedex</a>
-  <a href="#PokeQuiz">PokeQuiz</a>
-  <a href="#About Us">About Us</a>
+  <a href="#Pokédex">Pokédex</a>
+  <a href="#PokéQuiz">PokéQuiz</a>
+  <a href="#About Us">Articles</a>
   <a href="#Misc.">Misc.</a>
   <button class="dropdown-btn">Dropdown
     <i class="fa fa-caret-down"></i>
@@ -48,19 +49,19 @@
 
 <script type="text/javascript">
 	var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+	var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
+	for (i = 0; i < dropdown.length; i++) {
+  		dropdown[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var dropdownContent = this.nextElementSibling;
+    	if (dropdownContent.style.display === "block") {
+      		dropdownContent.style.display = "none";
+    	} else {
+      		dropdownContent.style.display = "block";
+    	}
+  		});
+	}
 </script>
 	</body>
 </html>
