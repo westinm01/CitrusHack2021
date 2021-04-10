@@ -81,4 +81,27 @@ body
   float: right;
   padding-right: 8px;
 }
+section{
+  position: relative;
 
+}
+.articleType{
+  color:white;
+  position: relative;
+  padding: 8px;
+  left: 30%;
+  top: 10vh;
+}
+
+.article{
+  background: white;
+  min-height: 80vh;
+  width: 60vh;
+  display: flex;
+  position: relative;
+  left: 30%;
+  top: 10vh;
+  justify-content: center;
+  background: linear-gradient(to right bottom, rgba(255,255,255,.7),rgba(255,255,255,0.2));
+  border-radius: 2rem;
+}
