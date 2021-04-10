@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Pokemon Reborn</title>
+		<title>Pokemon Now</title>
 		<link rel ="stylesheet" type="text/css" href="style.css">
 	</head>
+
+
 	<body>
 		<section>
 			<img src="images/clefairy.png" data-speed="-4" class ="layer">
@@ -14,7 +16,7 @@
 			<img src="images/oshawott.png" data-speed="-2" class ="layer">
 			<img src="images/chikorita.png" data-speed="10" class ="layer">
 			<img src="images/goomy.png" data-speed="-3" class ="layer">
-			<h2 class="layer">Pokemon Reborn</h2>
+			<h2 class="layer">Pokemon Now</h2>
 		</section>
 		<script type= "text/javascript">
 			document.addEventListener("mousemove",parallax);
@@ -27,5 +29,38 @@
 				})
 			}
 		</script>
+
+		<div class="sidenav">
+  <a href="#Pokedex">Pokedex</a>
+  <a href="#PokeQuiz">PokeQuiz</a>
+  <a href="#About Us">About Us</a>
+  <a href="#Misc.">Misc.</a>
+  <button class="dropdown-btn">Dropdown
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+<script type="text/javascript">
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
 	</body>
 </html>
