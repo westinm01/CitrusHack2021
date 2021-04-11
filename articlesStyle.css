@@ -98,21 +98,22 @@ section{
   font-size: 35px;
   padding: 8px;
   text-align: left;
+
 }
 article{
   
   background: white;
-  max-height: 80vh;
+  /*min-height: 30vh;*/
   width: 60vh;
   /*display: flex;*/
   position: absolute;
-  left: 30%;
+  left: 33vh;
   top: 10vh;
   justify-content: center;
   background: linear-gradient(to right bottom, rgba(255,255,255,.7),rgba(255,255,255,0.2));
   border-radius: 2rem;
 }
-.collapsible:hover{
+article:hover{
   /*box-shadow: 120px 80px 100px 50px #FFFFFF;*/
   box-shadow:  inset 0 0 50px #fff,      /* inner white */
     /*inset 20px 0 80px #f0f,   /* inner left magenta short */
@@ -137,4 +138,59 @@ article{
   overflow:hidden;
 
  /* position:relative;*/
+}
+
+button.collapsible{
+  padding: 5px;
+  border-radius: 10px;
+  outline:none;
+  background: white;
+  margin-left:10px;
+  
+  background:linear-gradient(0deg,#A8A8A8,#FFFFFF);
+  /*background:green;*/
+  background:none;
+  
+  border-radius:9px;
+  box-sizing:border-box;
+  
+  border:none;
+  font-size:22px;
+  outline:none;
+
+}
+button:hover{
+  text-decoration: underline;
+}
+.Date{
+  margin-left: 3%;
+  display:inline-flex;
+
+}
+ul.tags{
+  padding:2px 2px 2px 2px;
+  
+  list-style-type:none;
+  
+  
+  
+
+  /*background:linear-gradient(0deg,#05D86F,#93F8FF);
+  /*background:rgb(0,200,100);*/
+  display:inline-flex; /*Makes the background only cover the characters rather than entire line.*/
+  border-radius:17px;
+  /*box-sizing:border-box;*/
+ }
+li.BreakingNews{
+  background:red;
+  border-radius:17px;
+
+}
+li.BDSP{
+  background:linear-gradient(45deg,#0ff,#f0f);
+  border-radius:17px;
+}
+li.SWSH{
+  background:linear-gradient(45deg,cyan,magenta);
+  border-radius:7px;
 }
