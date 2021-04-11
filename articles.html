@@ -3,8 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pokémon Now | Articles</title>
+	
 	<link rel ="stylesheet" type="text/css" href="articlesStyle.css">
 </head>
+
+
+
 <body>
 	<h2 id="pageTitle" class="layer">Articles</h2>
 	<div class="sidenav">
@@ -39,14 +43,22 @@
   			});
 		}
 	</script>
-	<section class= "content-container" >
-		
-		<article class ="collapsible">
+	<section class= "4_11_21Container" >
+
+		<article>
 			<strong><div class = "articleTitle">
 				Pokemon Brilliant Diamond and Shining Pearl Announced!
 			</div></strong>
 
+
 			<img src="images/BDSPArticle.png" class="coverPic">
+			<div class="Date">4/11/21, Sunday</div>
+			<ul class="tags">
+				<li class="BreakingNews">Breaking News</li>
+				<li class="BDSP">BDSP</li>
+			</ul>
+			<br>
+			<button class = "collapsible" class="ReadMoreButton"> Read More...</button>
 			<div class="articleBodyText">
 				After a decade of hype and anticipation, The Pokemon Company confirmed the series would be returning to the Sinnoh region with the announcement of Brilliant Diamond & Shining Pearl in February 2021.
 				<br>
@@ -59,19 +71,21 @@
 				A viral post on the r/Pokemon subreddit compiled a list of possible features that could be included in the upcoming Gen IV remakes. “If BDSP are truly faithful recreations of the originals, we’re getting some cool features returning to the series,” the fan wrote.
 			</div>
 		</article>
+		
 		<script type="text/javascript">
-			//FIX ME
+			//Collapsible Script
 			var coll = document.getElementsByClassName("collapsible");
 			var i;
-
 			for (i = 0; i < coll.length; i++) {
   				coll[i].addEventListener("click", function() {
     				this.classList.toggle("active");
-    				var content = document.getElementsByClassName("articleBodyText");
+    				var content = this.nextElementSibling;
     				if (content.style.display === "block") {
       					content.style.display = "none";
-   				 	} else {
-      					content.style.display = "block";
+      					document.querySelector(".collapsible").textContent='Read More...';
+    				} else {
+     				 content.style.display = "block";
+     				 document.querySelector(".collapsible").textContent='Read Less...';
     				}
   				});
 			}
