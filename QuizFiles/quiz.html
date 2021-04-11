@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Reborn
+    <title>Pokémon Now | PokéQuiz
     </title> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <div class="first">
+    <div>
         <header>
             <nav>
                 <div>
                     <a href="../practice.html">Home</a>
                     <a href="../articles.html">Articles</a>
-                    <a>Pokédex</a>
-                    <a>PokéQuiz</a>
-
+                    <a href="../DexFiles/pokedex.html">Pokédex</a>
+                    <a href="quiz.html">PokéQuiz</a>
                 </div>
             </nav>
         </header>
@@ -57,7 +56,17 @@
                 <input type="radio" name="q3">Medium<br>
                 <input type="radio" name="q3">Large<br>
                 <input type="radio" name="q3">Giant<br>
-            </body>
+            </body><br>
+            <div><input type="button" name="submit" value="Submit" onclick="result()"></div><br>
+
+            <script type="text/javascript">
+                function result(){
+                    alert("You are a Squirtle!");
+                }
+
+            </script>
+
+
         </div>
     </div>
     

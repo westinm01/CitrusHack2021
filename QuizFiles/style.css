@@ -20,12 +20,8 @@ a{
 }
 
 .container{
-    max-width: 200rem;
+    max-width: 150rem;
     margin: 0 auto;
-}
-
-.first{
-
 }
 
 header{
@@ -51,7 +47,6 @@ nav a+a{
 
 .heading{
     text-align: center;
-    
     color: #FFFFFF;
 }
 
@@ -76,9 +71,7 @@ p.quiz{
 
 }
 
-.start{
 
-}
 
 span{
     display: block;
@@ -87,8 +80,8 @@ span{
 a{
     display: inline-block;
     padding: 0.5em 1em;
-    box-shadow:   5px 5px 10px #000000,
-             -2px -1.5px 5px #696969;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     font-size: 1.4rem;
     color: #FFFFFF;
@@ -108,8 +101,8 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 3em 1em;
-      box-shadow:   5px 5px 10px #000000,
-             -2px -1.5px 5px #696969;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     margin: 4rem auto;
 
@@ -171,15 +164,15 @@ body.options{
 
 .box{
     padding: 2em 1em;:;
-    box-shadow:   5px 5px 10px #000000,
-             -2px -1.5px 5px #696969;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
 }
 .box:hover{
-    box-shadow:   5px 5px 10px #000000,
-             -2px -1.5px 5px #696969;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     transform: scale(0.97);
 }
 
