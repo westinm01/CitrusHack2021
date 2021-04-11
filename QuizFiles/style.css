@@ -80,7 +80,8 @@ span{
 a{
     display: inline-block;
     padding: 0.5em 1em;
-    box-shadow: 5px 5px 15px #000000;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     font-size: 1.4rem;
     color: #FFFFFF;
@@ -100,7 +101,8 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 3em 1em;
-    box-shadow: 5px 5px 20px #000000;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     margin: 4rem auto;
 
@@ -162,13 +164,15 @@ body.options{
 
 .box{
     padding: 2em 1em;:;
-    box-shadow: 5px 5px 15px #000000;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s;
 }
 .box:hover{
-    box-shadow: 5px 5px 15px #000000;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                -5px -5px 15px rgba(0,0,0,0.05);
     transform: scale(0.97);
 }
 
