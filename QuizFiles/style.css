@@ -40,10 +40,6 @@ nav a{
     font-size: 1.4rem;
     color: #FFFFFF;
 }
-nav a+a{
-    margin-left: 2rem;
-    color: #FFFFFF;
-}
 
 .heading{
     text-align: center;
@@ -61,20 +57,6 @@ p{
     line-height: 1.5;
     color: #FFFFFF;
     margin: 3rem 0;
-}
-
-p.quiz{
-    font-size: 3rem;
-    line-height: 1.5;
-    color: #FFFFFF;
-    text-align: center;
-
-}
-
-
-
-span{
-    display: block;
 }
 
 a{
