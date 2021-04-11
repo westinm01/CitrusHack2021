@@ -101,3 +101,10 @@ section h2
   float: right;
   padding-right: 8px;
 }
+.foot{
+  color:white;
+  bottom:0%;
+  right:0%;
+  position:fixed;
+
+}
